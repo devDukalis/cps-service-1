@@ -1,0 +1,16 @@
+/* FLEX */
+:root {
+  --nav-menu-padding: 18px 16px;
+}
+
+/* BUTTONS */
+:root {
+  --menu-btn-width: 40px;
+  --menu-btn-height: 40px;
+}
+
+/* ICONS */
+:root {
+  --menu-icon-width: 95px;
+  --menu-icon-height: 50px;
+}

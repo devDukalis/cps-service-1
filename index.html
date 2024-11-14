@@ -4,35 +4,52 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="normalize.css" />
-  <link rel="stylesheet" href="fonts.css" />
+  <link rel="stylesheet" href="src/css/normalize.css" />
+  <link rel="stylesheet" href="src/css/fonts.css" />
+  <link rel="stylesheet" href="src/css/utils.css" />
+  <link rel="stylesheet" href="src/css/main.css" />
+  <link rel="stylesheet" href="src/css/flex.css" />
+  <link rel="stylesheet" href="src/css/queries.css" />
   <title>Сервисный центр</title>
 </head>
 
 <body>
   <header>
-    <nav>
-      <ul>
+    <nav class="nav">
+      <ul class="nav__list list-reset menu-container">
         <li>
-          <button>
-            <img src="src/assets/icons/burger.svg" alt="Открыть меню" />
-          </button>
+          <ul class="nav__left-container list-reset">
+            <li class="nav__list-item nav__left-container">
+              <button class="btn-reset nav__list-btn">
+                <img src="src/assets/icons/burger.svg" alt="Открыть меню" />
+              </button>
+            </li>
+            <li class="nav__list-item nav__list-item--divider hidden">
+              <img src="src/assets/icons/divider.svg" alt="Разделитель меню" class="nav__list-divider" />
+            </li>
+            <li class="nav__list-item">
+              <a href=""><img src="src/assets/icons/cps.svg" alt="Иконка логотипа компании CPS"
+                  class="nav__list-icon" /></a>
+            </li>
+          </ul>
         </li>
+
         <li>
-          <a href=""><img src="src/assets/icons/cps.svg" alt="Иконка логотипа компании CPS" /></a>
-        </li>
-        <li>
-          <img src="src/assets/icons/divider.svg" alt="Разделитель меню" />
-        </li>
-        <li>
-          <button>
-            <img src="src/assets/icons/repair.svg" alt="Оставить заявку" />
-          </button>
-        </li>
-        <li>
-          <button>
-            <img src="src/assets/icons/check-status.svg" alt="Статус ремонта" />
-          </button>
+          <ul class="nav__right-container list-reset">
+            <li class="nav__list-item item nav__list-item--divider">
+              <img src="src/assets/icons/divider.svg" alt="Разделитель меню" class="nav__list-divider" />
+            </li>
+            <li class="nav__list-item">
+              <button class="btn-reset nav__list-btn">
+                <img src="src/assets/icons/repair.svg" alt="Оставить заявку" />
+              </button>
+            </li>
+            <li class="nav__list-item ">
+              <button class="btn-reset nav__list-btn">
+                <img src="src/assets/icons/check-status.svg" alt="Статус ремонта" />
+              </button>
+            </li>
+          </ul>
         </li>
       </ul>
     </nav>
@@ -42,14 +59,14 @@
     <img src="src/assets/icons/highlight.svg" alt="Выделить заголовок" />
     <h1>Услуги и сервисы</h1>
 
-    <nav>
-      <ul>
-        <li><button>Ремонтируемые бренды</button></li>
-        <li><button>Ремонтируемые устройства</button></li>
-        <li><button>Цены на услуги</button></li>
-        <li><button>Адреса сервисных центров</button></li>
-        <li><button>Специальные цены</button></li>
-        <li><button>Отзывы</button></li>
+    <nav class="nav-servies">
+      <ul class="nav-servies__list list-reset">
+        <li><button class="btn-reset">Ремонтируемые бренды</button></li>
+        <li><button class="btn-reset">Ремонтируемые устройства</button></li>
+        <li><button class="btn-reset">Цены на услуги</button></li>
+        <li><button class="btn-reset">Адреса сервисных центров</button></li>
+        <li><button class="btn-reset">Специальные цены</button></li>
+        <li><button class="btn-reset">Отзывы</button></li>
       </ul>
     </nav>
 
@@ -66,7 +83,7 @@
       <span>
         <img src="src/assets/icons/arrow-down.svg" alt="Разделитель главного заголовка" />
       </span>
-      <button>Читать далее</button>
+      <button class="btn-reset">Читать далее</button>
     </div>
 
     <img src="src/assets/images/logo-picture.jpg" alt="Логотип компании CPS" />

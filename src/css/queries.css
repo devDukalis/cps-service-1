@@ -1,0 +1,13 @@
+/* HIDDEN */
+
+@media (min-width: 1px) and (max-width: 767px) {
+  .nav__list-item--divider.hidden {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav__list-item--divider.hidden {
+    display: flex;
+  }
+}

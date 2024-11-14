@@ -1,0 +1,19 @@
+@import "/src/css/variables.css";
+
+.menu-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--nav-menu-padding);
+}
+
+.nav__left-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav__right-container {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
