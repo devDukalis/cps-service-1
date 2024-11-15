@@ -14,3 +14,20 @@
   --menu-icon-width: 95px;
   --menu-icon-height: 50px;
 }
+
+/* FONTS */
+:root {
+  --font-bold: "TTLakes-Bold", sans-serif;
+  --font-medium: "TTLakes-Medium", sans-serif;
+  --font-regular: "TTLakes-Regular", sans-serif;
+
+  --font-main-color: #1b1c21;
+  --font-second-color: #7e7e82;
+
+  --font-size-big: 28px;
+  --font-size-medium: 16px;
+  --font-size-small: 14px;
+
+  --line-height-main: 40px;
+  --letter-spacing-main: -0.6px;
+}
