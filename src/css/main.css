@@ -18,11 +18,3 @@
 .nav__list-item:not(:last-child) {
   padding-right: 16px;
 }
-
-.nav__list-item:nth-child(-n + 3) {
-  margin-right: auto;
-}
-
-.nav__list-item:nth-child(n + 4) {
-  margin-left: auto;
-}
