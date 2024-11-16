@@ -29,5 +29,24 @@
   --font-size-small: 14px;
 
   --line-height-main: 40px;
+  --line-height-second: 24px;
+
   --letter-spacing-main: -0.6px;
+  --letter-spacing-second: -0.2px;
+}
+
+/* MAIN */
+:root {
+  --bg-color-main: #f8f8f8;
+  --main-padding: 16px;
+  --main-second-padding: 32px;
+  --item-color-main: #7e7e82;
+  --item-height: 40px;
+}
+
+/* HIGHLIGHT */
+:root {
+  --bg-color-second: #ffffff;
+  --border-color-main: #b8ffec;
+  --border-radius-main: 6px;
 }
