@@ -57,23 +57,26 @@
 }
 
 .nav-services__list {
-  padding-left: var(--main-padding);
-  padding-right: var(--main-padding);
+  padding-left: 18px;
+  padding-right: 18px;
   overflow-x: auto;
   scrollbar-width: thin;
 }
 
 .nav-services__list-item {
-  font-family: var(--font-medium);
-  color: var(--item-color-main);
-  font-size: var(--font-size-medium);
-  line-height: var(--line-height-second);
-  letter-spacing: var(--letter-spacing-second);
   height: var(--item-height);
   padding-left: var(--main-padding);
   padding-right: var(--main-padding);
   white-space: nowrap;
   display: flex;
+}
+
+.nav-services__list-item-btn {
+  font-family: var(--font-medium);
+  color: var(--font-second-color);
+  font-size: var(--font-size-medium);
+  line-height: var(--line-height-second);
+  letter-spacing: var(--letter-spacing-second);
 }
 
 .nav-services__list-item:hover {
@@ -97,9 +100,17 @@
 }
 
 .read-next__btn {
-  font-family: var(--font-medium);
+  font-family: var(--font-regular);
   color: var(--font-main-color);
   font-size: var(--font-size-medium);
   line-height: var(--line-height-second);
   letter-spacing: var(--letter-spacing-second);
+}
+
+.about-company__description {
+  font-family: var(--font-medium);
+  color: var(--font-main-color);
+  font-size: var(--font-size-small);
+  line-height: var(--line-height-small);
+  letter-spacing: var(--letter-spacing-small);
 }

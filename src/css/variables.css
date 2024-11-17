@@ -30,9 +30,11 @@
 
   --line-height-main: 40px;
   --line-height-second: 24px;
+  --line-height-small: 18px;
 
   --letter-spacing-main: -0.6px;
   --letter-spacing-second: -0.2px;
+  --letter-spacing-small: 0.2;
 }
 
 /* MAIN */
