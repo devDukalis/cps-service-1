@@ -1,5 +1,6 @@
-/* HIDDEN */
+@import "/src/css/variables.css";
 
+/* HIDDEN */
 @media (min-width: 1px) and (max-width: 767px) {
   .nav__list-item--divider.hidden {
     display: none;
@@ -9,5 +10,57 @@
 @media (min-width: 768px) {
   .nav__list-item--divider.hidden {
     display: flex;
+  }
+}
+
+/* 768p */
+@media (min-width: 768px) {
+  /* TOP-MENU */
+  .menu-container {
+    padding: var(--nav-menu-padding-second);
+  }
+
+  .visually-hidden {
+    /* elements are visible again */
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    border: initial;
+    padding: initial;
+    white-space: normal;
+    clip-path: none;
+    clip: auto;
+    overflow: visible;
+  }
+
+  /* MAIN */
+  .main__title-heading {
+    margin-left: 24px;
+  }
+
+  .nav-services {
+    margin-bottom: 32px;
+  }
+
+  .about-company-container {
+    flex-direction: row;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 24px;
+  }
+
+  .about-company__image {
+    min-height: 198px;
+    min-width: 360px;
+  }
+
+  .nav-services {
+    margin-bottom: 32px;
+  }
+
+  .nav-services__list {
+    padding-left: 28px;
+    padding-right: 28px;
   }
 }
