@@ -36,6 +36,21 @@
 
         <li>
           <ul class="nav__right-container list-reset">
+            <li class="nav__list-item visually-hidden">
+              <button class="btn-reset nav__list-btn">
+                <img src="src/assets/icons/call.svg" alt="Звонок" />
+              </button>
+            </li>
+            <li class="nav__list-item visually-hidden">
+              <button class="btn-reset nav__list-btn">
+                <img src="src/assets/icons/chat.svg" alt="Чат" />
+              </button>
+            </li>
+            <li class="nav__list-item visually-hidden">
+              <button class="btn-reset nav__list-btn">
+                <img src="src/assets/icons/profile.svg" alt="Профиль" />
+              </button>
+            </li>
             <li class="nav__list-item item nav__list-item--divider">
               <img src="src/assets/icons/divider.svg" alt="Разделитель меню" class="nav__list-divider" />
             </li>
@@ -44,7 +59,7 @@
                 <img src="src/assets/icons/repair.svg" alt="Оставить заявку" />
               </button>
             </li>
-            <li class="nav__list-item ">
+            <li class="nav__list-item">
               <button class="btn-reset nav__list-btn">
                 <img src="src/assets/icons/check-status.svg" alt="Статус ремонта" />
               </button>
@@ -84,25 +99,28 @@
       </ul>
     </nav>
 
-    <div class="about-company">
-      <p class="about-company__description">
-        Мы являемся авторизованным сервисным центром по ремонту техники Dell.
-        Только у нас вы можете отремонтировать свой ноутбук Dell с официальной
-        гарантией производителя. Мы успешно работаем с 1992 года и заслужили
-        репутацию надежного партнера, что подтверждает большое количество
-        постоянных клиентов. Мы гордимся тем, что к нам обращаются по
-        рекомендациям и, в свою очередь, советуют нас родным и близким.
-      </p>
+    <div class="about-company about-company-container">
+      <div class="about-company__info-block">
+        <p class="about-company__info-block--description">
+          Мы являемся авторизованным сервисным центром по ремонту техники Dell.
+          Только у нас вы можете отремонтировать свой ноутбук Dell с официальной
+          гарантией производителя. <br><br>Мы успешно работаем с 1992 года и заслужили
+          репутацию надежного партнера, что подтверждает большое количество
+          постоянных клиентов. Мы гордимся тем, что к нам обращаются по
+          рекомендациям и, в свою очередь, советуют нас родным и близким.
+        </p>
 
-      <div class="read-next-block">
-        <span class="read-next__image-block">
-          <img src="src/assets/icons/arrow-down.svg" alt="Разделитель главного заголовка"
-            class="read-next__image-block-image" />
-        </span>
-        <button class="btn-reset read-next__btn">Читать далее</button>
+        <div class="read-next-block">
+          <span class="read-next__image-block">
+            <img src="src/assets/icons/arrow-down.svg" alt="Разделитель главного заголовка" />
+          </span>
+          <button id="read-next" class="btn-reset read-next__btn">Читать далее</button>
+        </div>
       </div>
 
-      <img src="src/assets/images/logo-picture.jpg" alt="Логотип компании CPS" class="about-company__image" />
+      <div class="about-company__image-block">
+        <img src="src/assets/images/logo-picture.jpg" alt="Логотип компании CPS" class="about-company__image" />
+      </div>
     </div>
   </main>
 </body>
