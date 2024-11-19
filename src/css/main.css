@@ -35,6 +35,37 @@
 .main__title-wrapper {
   display: flex;
   align-items: center;
+  height: 82px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 32px;
+}
+
+.title-left-container {
+  display: flex;
+  align-items: center;
+}
+
+.title-right-container {
+  display: flex;
+  align-items: center;
+}
+
+.title-right-container__item {
+  display: flex;
+}
+
+.title-right-container__item-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-right-container__item-image {
+  margin-left: 8px;
 }
 
 .main__title-heading {
