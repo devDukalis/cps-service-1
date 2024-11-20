@@ -1,4 +1,4 @@
-// TOGGLE TEXT
+/* TOGGLE TEXT */
 document.getElementById("read-next").addEventListener("click", function () {
   let hiddenText = document.getElementById("hidden-text");
 
@@ -11,7 +11,7 @@ document.getElementById("read-next").addEventListener("click", function () {
   }
 });
 
-// TOGGLE HEADER
+/* TOGGLE HEADER */
 let header = document.getElementById("header");
 
 function toggleHeaderVisibility() {
@@ -28,7 +28,7 @@ toggleHeaderVisibility();
 // Добавляем обработчик события для изменения размера окна
 window.addEventListener("resize", toggleHeaderVisibility);
 
-// SHOW TITLE RIGHT CONTAINER
+/* SHOW TITLE RIGHT CONTAINER */
 let titleRightContainer = document.getElementById("title-right-container");
 
 function showTitleRightContainer() {
@@ -44,3 +44,17 @@ showTitleRightContainer();
 
 // Добавляем обработчик события для изменения размера окна
 window.addEventListener("resize", showTitleRightContainer);
+
+/* SELECT/DESELECT SERVICES */
+document.addEventListener("DOMContentLoaded", function () {
+  const listItems = document.querySelectorAll(".nav-services__list-item");
+
+  listItems.forEach((item) => {
+    item.addEventListener("click", function () {
+      // Удаляем класс active у всех элементов
+      listItems.forEach((li) => li.classList.remove("active"));
+      // Добавляем класс active к текущему элементу
+      this.classList.add("active");
+    });
+  });
+});

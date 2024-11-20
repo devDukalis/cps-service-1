@@ -7,12 +7,12 @@
   padding: var(--nav-menu-padding);
 }
 
-.nav__left-container {
+.header-nav__list-item-left {
   display: flex;
   align-items: center;
 }
 
-.nav__right-container {
+.header-nav__list-item-right {
   display: flex;
   align-items: center;
   margin-left: auto;
