@@ -16,52 +16,54 @@
 
 <body>
   <header class="header" id="header">
-    <nav class="nav">
-      <ul class="nav__list list-reset menu-container">
-        <li>
-          <ul class="nav__left-container list-reset">
-            <li class="nav__list-item nav__left-container">
-              <button class="btn-reset nav__list-btn">
+    <nav class="header-nav">
+      <ul class="header-nav__list list-reset menu-container">
+        <li class="header-nav__list-item">
+          <ul class="header-nav__list-item-left list-reset">
+            <li class="header-nav__list-item-left-element">
+              <button class="btn-reset header-nav__list-item-left-element-btn">
                 <img src="src/assets/icons/burger.svg" alt="Открыть меню" />
               </button>
             </li>
-            <li class="nav__list-item nav__list-item--divider hidden">
-              <img src="src/assets/icons/divider.svg" alt="Разделитель меню" class="nav__list-divider" />
+            <li class="header-nav__list-item-left-element divider hidden">
+              <img src="src/assets/icons/divider.svg" alt="Разделитель меню"
+                class="header-nav__list-item-left-element-image-divider" />
             </li>
-            <li class="nav__list-item">
+            <li class="header-nav__list-item-left-element">
               <a href=""><img src="src/assets/icons/cps.svg" alt="Иконка логотипа компании CPS"
-                  class="nav__list-icon" /></a>
+                  class="header-nav__list-item-left-element-icon" /></a>
             </li>
           </ul>
         </li>
 
-        <li>
-          <ul class="nav__right-container list-reset">
-            <li class="nav__list-item visually-hidden">
-              <button class="btn-reset nav__list-btn">
+        <li class="header-nav__list-item">
+          <ul class="header-nav__list-item-right list-reset">
+            <li class="header-nav__list-item-right-element visually-hidden">
+              <button class="btn-reset header-nav__list-item-right-element-btn">
                 <img src="src/assets/icons/call.svg" alt="Звонок" />
               </button>
             </li>
-            <li class="nav__list-item visually-hidden">
-              <button class="btn-reset nav__list-btn">
+            <li class="header-nav__list-item-right-element visually-hidden">
+              <button class="btn-reset header-nav__list-item-right-element-btn">
                 <img src="src/assets/icons/chat.svg" alt="Чат" />
               </button>
             </li>
-            <li class="nav__list-item visually-hidden">
-              <button class="btn-reset nav__list-btn">
+            <li class="header-nav__list-item-right-element visually-hidden">
+              <button class="btn-reset header-nav__list-item-right-element-btn">
                 <img src="src/assets/icons/profile.svg" alt="Профиль" />
               </button>
             </li>
-            <li class="nav__list-item item nav__list-item--divider">
-              <img src="src/assets/icons/divider.svg" alt="Разделитель меню" class="nav__list-divider" />
+            <li class="header-nav__list-item-right-element item divider">
+              <img src="src/assets/icons/divider.svg" alt="Разделитель меню"
+                class="header-nav__list-item-right-element-image-divider" />
             </li>
-            <li class="nav__list-item">
-              <button class="btn-reset nav__list-btn">
+            <li class="header-nav__list-item-right-element">
+              <button class="btn-reset header-nav__list-item-right-element-btn">
                 <img src="src/assets/icons/repair.svg" alt="Оставить заявку" />
               </button>
             </li>
-            <li class="nav__list-item">
-              <button class="btn-reset nav__list-btn">
+            <li class="header-nav__list-item-right-element">
+              <button class="btn-reset header-nav__list-item-right-element-btn">
                 <img src="src/assets/icons/check-status.svg" alt="Статус ремонта" />
               </button>
             </li>
@@ -95,7 +97,7 @@
 
     <nav class="nav-services">
       <ul class="nav-services__list list-reset main-nav-container">
-        <li class="nav-services__list-item">
+        <li class="nav-services__list-item active">
           <button class="btn-reset nav-services__list-item-btn">Ремонтируемые бренды</button>
         </li>
         <li class="nav-services__list-item">
@@ -118,19 +120,19 @@
 
     <div class="about-company about-company-container">
       <div class="about-company__info-block">
-        <p class="about-company__info-block--description" id="visible-text">Мы являемся авторизованным сервисным центром
+        <p class="about-company__info-block-text" id="visible-text">Мы являемся авторизованным сервисным центром
           по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией
           производителя.
         </p>
-        <p class="about-company__info-block--description" id="hidden-text">Мы успешно работаем с 1992 года и заслужили
+        <p class="about-company__info-block-text" id="hidden-text">Мы успешно работаем с 1992 года и заслужили
           репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к
           нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
 
-        <div class="read-next-block">
-          <span class="read-next__image-block">
+        <div class="about-company__info-block-read-next">
+          <span class="about-company__info-block-read-next-image">
             <img src="src/assets/icons/arrow-down.svg" alt="Разделитель главного заголовка" />
           </span>
-          <button id="read-next" class="btn-reset read-next__btn">Читать далее</button>
+          <button id="read-next" class="btn-reset about-company__info-block-read-next-btn">Скрыть</button>
         </div>
       </div>
 
